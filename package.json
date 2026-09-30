@@ -1,0 +1,17 @@
+{
+  "name": "dither-to-svg",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild code.ts --bundle --outfile=code.js --target=es2017",
+    "dev": "esbuild code.ts --bundle --outfile=code.js --target=es2017 --watch=forever"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.115.0",
+    "esbuild": "^0.25.10",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@rogieking/figui3": "^9.2.3"
+  }
+}

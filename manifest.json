@@ -1,0 +1,15 @@
+{
+  "name": "Dither to SVG",
+  "id": "1687130152179623128",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "documentAccess": "dynamic-page",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "relaunchButtons": [
+    { "command": "29714264-aa0f-46f8-bba9-4fa7ccf1f1b9", "name": "Dither to SVG" }
+  ]
+}
